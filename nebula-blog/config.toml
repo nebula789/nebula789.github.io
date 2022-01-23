@@ -1,0 +1,48 @@
+baseURL = 'https://nebula789.github.io/'
+languageCode = 'en-us'
+title = 'Nebula'
+theme = "hugo-coder"
+
+paginate = 20
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "码出高效，码出未来"
+  info = "Full Stack DevOps and Magician"
+  description = "Nebula's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/nebula789/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

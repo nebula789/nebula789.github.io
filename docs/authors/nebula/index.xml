@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nebula on Nebula</title>
+    <link>https://nebula789.github.io/authors/nebula/</link>
+    <description>Recent content in nebula on Nebula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Dec 2021 19:33:26 +0800</lastBuildDate><atom:link href="https://nebula789.github.io/authors/nebula/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>史诗级apache log4j2漏洞</title>
+      <link>https://nebula789.github.io/posts/log4j2%E6%BC%8F%E6%B4%9E/</link>
+      <pubDate>Tue, 14 Dec 2021 19:33:26 +0800</pubDate>
+      
+      <guid>https://nebula789.github.io/posts/log4j2%E6%BC%8F%E6%B4%9E/</guid>
+      <description>2021年末大事无疑是apache log4j2漏洞，影响数以万计的项目,其中包括一些著名的开源和商务用组件和项目。 估计没有这次的漏洞，好多人应该都忘了JNDI(Java Naming and Directory Interface)了吧。
+CVE-2021-44228:
+Apache Log4j2 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints 攻击者利用LDAP和JNDI进行漏洞攻击 Descripton: Apache Log4j2 &amp;lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled.</description>
+    </item>
+    
+  </channel>
+</rss>

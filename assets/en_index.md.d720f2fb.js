@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as n}from"./app.14bd544c.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"en/index.md","lastUpdated":1676396329000}'),s={name:"en/index.md"},o=n("p",null,"网站建设中......",-1),r=[o];function c(d,_,i,p,l,m){return a(),t("div",null,r)}const x=e(s,[["render",c]]);export{u as __pageData,x as default};
